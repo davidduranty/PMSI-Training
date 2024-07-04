@@ -1,9 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 20px auto;
+}
+label {
+  margin-top: 10px;
+}
+input {
+  margin-top: 10px;
+  height: 50px;
+  border: 2px solid black;
+  padding-left: 5px;
+  font-size: 1.2rem;
+}
+input::placeholder {
+  color: black;
+  font-size: 1.2rem;
+}
+input:focus {
+  background: teal;
+  color: #fff;
+}
+
+select {
+  height: 30px;
+  margin-top: 10px;
+  width: 20%;
+}
 button {
   background: black;
   color: #fff;
   padding: 20px 30px;
   border-radius: 5px;
   border: none;
+  margin-right: 10px;
   cursor: pointer;
 }
