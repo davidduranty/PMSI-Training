@@ -1,0 +1,7 @@
+h1 {
+  text-align: center;
+}
+.btn-old-patient {
+  display: flex;
+  justify-content: center;
+}
