@@ -4,13 +4,13 @@ h1 {
 .form-new-patient {
   min-height: 200px;
 }
+.btn-new-patient {
+  display: flex;
+  justify-content: center;
+}
 
 .select-container {
   display: flex;
   justify-content: space-around;
 }
 
-.btn-new-patient {
-  display: flex;
-  justify-content: center;
-}
