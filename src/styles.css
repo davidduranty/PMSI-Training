@@ -40,3 +40,15 @@ button {
   margin-right: 10px;
   cursor: pointer;
 }
+.liste-diagnostic-top-bar {
+  display: flex;
+}
+.liste-diagnostic-title, .container-name-lastname {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.btn-patient {
+  display: flex;
+  justify-content: center;
+}

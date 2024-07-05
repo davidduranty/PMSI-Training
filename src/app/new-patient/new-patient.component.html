@@ -8,9 +8,9 @@
     <label for="">Email</label>
     <input type="email" placeholder="Votre Email" />
     <label for="">Age</label>
-    <input type="number" placeholder="Votre Age" />
+    <input type="text" placeholder="Votre Age" />
     <label for="">Téléphone</label>
-    <input type="number" placeholder="Votre Numéro" />
+    <input type="text" placeholder="Votre Numéro" />
     <div class="select-container">
       <select name="" id="">
         <option value="">M</option>
@@ -31,10 +31,8 @@
 </div>
 <div class="btn-new-patient">
   <nav>
-    <a>
-      <button [routerLink]="['/oldpatient']">Déjà inscrit ?</button>
-    </a>
+    <button [routerLink]="['/oldpatient']">Déjà inscrit ?</button>
 
-    <button>Valider</button>
+    <button [routerLink]="['/patient']">Valider</button>
   </nav>
 </div>
