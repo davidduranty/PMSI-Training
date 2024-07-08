@@ -11,6 +11,7 @@ import { PatientComponent } from './patient/patient.component';
 import { ProfilPatientComponent } from './profil-patient/profil-patient.component';
 import { ListeDiagnosticComponent } from './liste-diagnostic/liste-diagnostic.component';
 import { AddDiagnosticComponent } from './add-diagnostic/add-diagnostic.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -27,7 +28,7 @@ import { AddDiagnosticComponent } from './add-diagnostic/add-diagnostic.componen
   ],
   imports: [
     BrowserModule,
-
+    ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: NewPatientComponent },
       { path: 'oldpatient', component: OldPatientComponent },

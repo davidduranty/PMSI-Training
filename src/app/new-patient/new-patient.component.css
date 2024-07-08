@@ -12,5 +12,31 @@ h1 {
 .select-container {
   display: flex;
   justify-content: space-around;
-}
+  margin: 30px 0 70px;
 
+}
+.select-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+select {
+  width: 100%;
+}
+.valid-input {
+  border-bottom: 2px solid green;
+}
+.invalid-input {
+  border-bottom: 2px solid red;
+}
+span {
+  margin-top: 5px;
+}
+.invalid-email {
+  color: red;
+}
+.email-valide {
+  color: green;
+}
