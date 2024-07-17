@@ -41,14 +41,14 @@ export class NewPatientComponent implements OnInit {
     }
   }
   logFormErrors(): void {
-    Object.keys(this.patientForm.controls).forEach(key => {
+    for (const key in this.patientForm.controls) {
       const controlErrors = this.patientForm.get(key)?.errors;
       if (controlErrors != null) {
-        Object.keys(controlErrors).forEach(errorKey => {
-          console.log('Key control: ' + key + ', error: ' + errorKey + ', value: ', controlErrors[errorKey]);
-        });
+        for (const errorKey in controlErrors) {
+          alert('Le champs : ' + key + ', error: ' + errorKey + ', value: ' + '< 8 '+ "n'est pas correct");
+        }
       }
-    });
+    }
   }
 
   isValidEmail(): boolean {
